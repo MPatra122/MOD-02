@@ -1,0 +1,183 @@
+main{
+    min-height: 100px;
+}
+nav a{
+    text-decoration: none;
+}
+
+/*li{
+  background-color: yellow;  
+}*/
+nav {
+    display: inline-block;
+    width: 80%;
+}
+nav img {
+    width: 10%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+.grid img {
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center; /* Adjust as needed */
+    align-items: start; /* Adjust as needed */
+    row-gap: 20px; /* Adjust as needed */
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Adjust as needed */
+    justify-content: space-between; /* Adjust as needed */
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between; 
+}
+.current {
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+head{
+    display: none;}
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 115%;
+    }
+    
+    body {
+        display: block;
+        margin: 8px;
+    }
+    header {
+        display: block;
+        background-color: rgb(80, 216, 171);
+    }
+    
+        header {
+        /*display: block;*/
+        unicode-bidi: isolate;
+    }
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 115%;
+    }
+    /*{
+        background-color: rgb(255, 0, 0);
+        font-size: 1.5em;
+    }
+    */
+    a {
+        text-decoration: none;
+        color: rgb(21, 3, 100);
+        font-weight: bold;
+    }
+
+    ul {
+        list-style-type: none; /* Your preferred list style */
+        width: fit-content;
+        margin: 0 auto;
+        text-align: left; /* Optional: If you want the list items centered within the list */
+    }
+    
+    ul {
+        list-style-type: none; /* Removes bullet points */
+        padding: 0; /* Removes default padding */
+        display: flex; /* Arranges items in a row */
+        gap: 50px; /* Adjust spacing between buttons */
+    }
+    
+    li {
+        margin-right: 100px; /* Adds spacing between items */
+    }
+    .fancy-button {
+        background-color: #90e493; /* Green background */
+        border: 3px;
+        color: rgb(216, 200, 200);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+    }
+    
+    .fancy-button:hover {
+        background-color: rgb(224, 187, 187); 
+        color: black; 
+        border: 5px solid #118114; /* Green border */
+    }
+    .highlight {
+        color: red;
+        font-weight: bold;
+    }
+    
+    
+    main {
+        background-color: rgb(207, 166, 204);
+        font-size: 1.5em;
+    }
+    main {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    p{line-height: 1.5em;}
+    p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+    }
+    footer {
+        background-color: rgb(247, 209, 178);
+    }
+    
+    footer {
+        display: block;
+        unicode-bidi: isolate;
+    } 
+    
+/*header{
+    background-color: #daabab;
+    }
+    
+    h1{
+    color: #0e299e;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    
+    h2{
+    color: #fafafaee;
+    text-transform: uppercase;
+    }
+    
+    section{
+    background-color: #666666;
+    }
+    
+    nav a{
+    background-color: #f4f5ae;
+    }
+    
+    a{
+    color: #000000;
+    background-color: #b8e5f0;
+    text-align: center;
+    }
+    
+    img{
+    display: none;
+    }
